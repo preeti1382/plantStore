@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 219, 219);
+}
+/* navbar */
+.navbar{
+    color: #a86f32;
+}
+.nav-link{
+    color: #a86f32;
+}
+.navbar-brand{
+    color: #a86f32;
+    font-weight: 600;
+}
+/* banner */
+#banner{
+    background-image: url(images/bg-1.jpeg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.main-header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.5ch;
+}
+.sub-header{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5ch;
+}
+.shop{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.shop-btn{
+    padding: 10px 40px;
+    background-color: #a86f32;
+}
+/* plants */
+#plants{
+    margin-top: 50px;
+}
+.plant-div{
+    padding: 0%;
+}
+.plant-head{
+    text-align: center;
+    color: #a86f32;
+    font-weight: 600;
+}
+.plant-img{
+    width: 100%;
+    height: 400px;
+}
+/* about-us */
+#aboutus{
+    margin-top: 20px;
+    padding: 60px;
+    border: white;
+    background-color: white;
+}
+.about-header{
+    color: #a86f32;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-hr{
+    text-align: center;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.about-hr hr{
+    color: #a86f32;
+    background-color: #a86f32;
+    border: #a86f32;
+    width: 30px;
+    height: 5px;
+}
+.about-p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #a86f32;
+    text-align: center;
+}
+.about-img{
+    width: 555px;
+    height: 100%;
+}
+.buy{
+    height: max-content;
+}
+.buy-div{
+    background-color: rgb(0, 12, 5);
+    padding: 100px;
+}
+.buy-header{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 60px;
+}
+.about-btn{
+    text-align: center;
+    padding: 40px;
+}
+.about-link{
+    padding: 10px 40px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.buy-row{
+    margin: 0%;
+    padding: 0%;
+}
+#footer{
+    padding-top: 20px;
+    color: white;
+    background-color:  rgb(0, 12, 5);
+}
+.email-input{
+    border-radius: 0%;
+    padding: 7px 50px;
+    border: 1px solid white;
+    background-color: inherit;
+}
+.second-p{
+    text-align: center;
+}
+.second{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-2{
+    background-color: white;
+    color: black;
+    padding: 7px 30px;
+    border-radius: 0%;
+}
+.chat{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    color: white; 
+    border-radius:0px; 
+    height:fit-content; 
+    width:150px;
+    padding:10px;
+    text-align: center;
+    background-color: #a86f32;
+}
+
+@media only screen and (max-width: 600px){
+ /* banner */
+ #banner{
+    padding: 50px;
+}
+
+.main-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0ch;
+}
+.sub-header{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.shop{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.shop-btn{
+    padding: 10px 30px;
+    background-color: #a86f32;
+}
+/* plants */
+#plants{
+    margin-top: 30px;
+    text-align: center;
+}
+.plant-div{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plant-head{
+    text-align: center;
+    color: #a86f32;
+    font-weight: 600;
+}
+.plant-img{
+    width: 100%;
+    height: 100%;
+}
+/* about-us */
+#aboutus{
+    margin-top: 20px;
+    padding: 0px;
+    border: white;
+    background-color: white;
+}
+.about-header{
+    color: #a86f32;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-hr{
+    text-align: center;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.about-hr hr{
+    color: #a86f32;
+    background-color: #a86f32;
+    border: #a86f32;
+    width: 30px;
+    height: 5px;
+}
+.card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #a86f32;
+    text-align: center;
+    font-size: 15px;
+}
+.about-img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.buy{
+    height: max-content;
+}
+.buy-div{
+    background-color: rgb(0, 12, 5);
+    padding: 50px;
+}
+.buy-header{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+.about-btn{
+    text-align: center;
+    padding: 30px;
+}
+.about-link{
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.buy-row{
+    margin: 0%;
+    padding: 0%;
+}
+#footer{
+    padding-top: 20px;
+    color: white;
+    background-color:  rgb(0, 12, 5);
+}
+.email-input{
+    border-radius: 0%;
+    padding: 7px 50px;
+    border: 1px solid white;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+.second-p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.second{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-2{
+    background-color: white;
+    color: black;
+    padding: 7px 30px;
+    border-radius: 0%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+   
+}
